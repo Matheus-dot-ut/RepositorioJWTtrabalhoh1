@@ -1,0 +1,6 @@
+@TrabalhoCodigoH1.Application_HostAddress = http://localhost:5125
+
+GET {{TrabalhoCodigoH1.Application_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
