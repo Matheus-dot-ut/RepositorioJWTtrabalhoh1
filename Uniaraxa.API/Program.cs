@@ -8,6 +8,9 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
+builder.Services.AddSingleton<Uniaraxa.Domain.Interfaces.ITeacherRepository, Uniaraxa.Infra.Repositories.TeacherRepository>();
+builder.Services.AddScoped<Uniaraxa.Domain.Interfaces.ITeacherService, Uniaraxa.Service.TeacherService>();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

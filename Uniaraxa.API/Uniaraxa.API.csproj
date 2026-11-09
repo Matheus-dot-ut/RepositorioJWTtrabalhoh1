@@ -12,6 +12,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Uniaraxa.Service\Uniaraxa.Service.csproj" />
+    <ProjectReference Include="..\Uniaraxa.Infra\Uniaraxa.Infra.csproj" />
+    <ProjectReference Include="..\Uniaraxa.Domain\Uniaraxa.Domain.csproj" />
   </ItemGroup>
 
 </Project>
